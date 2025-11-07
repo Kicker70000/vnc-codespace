@@ -30,6 +30,7 @@ btw you might wanna open with visual studio cus it allows you access the vnc wit
    - In the terminal type `./setup.sh` and press enter
    - Please wait until the process finishes, it will take a while.
    - If you see a "Configuring openssh-server" press enter (OK).
+   - You will be prompted to choose your language and keyboard. You can use the mouse to submit.
    - When done, it will ask you to create a password to connect to the VNC. Don't worry if your input isnt appearing, Linux hides it for security.
 3. Start VNC instance
    - In the terminal type `./start.sh`. This script will start the server for you. Please run this command anytime you turn on the codespace.
