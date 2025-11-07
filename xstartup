@@ -1,0 +1,8 @@
+#!/bin/sh
+# Start up the standard system desktop
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+export XKL_XMODMAP_DISABLE=1
+
+# Start Cinnamon
+exec dbus-launch cinnamon-session
