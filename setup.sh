@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo
 echo  "STEP 1: Update"
 echo
