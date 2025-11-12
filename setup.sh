@@ -37,7 +37,7 @@ echo =================================
 echo
 echo  "STEP 4: Instruct the VNC server to use cinnamon"
 echo
-mv /workspaces/vnc-codespace/xstartup ~/.vnc/xstartup
+mv '/workspaces/vnc-codespace/xstartup' '~/.vnc/xstartup'
 chmod +x ~/.vnc/xstartup
 echo
 echo "step 4 done."
