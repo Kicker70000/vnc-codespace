@@ -11,7 +11,7 @@ echo =================================
 echo
 echo  "STEP 2: Install core software"
 echo
-sudo apt install cinnamon-desktop-environment novnc tigervnc-standalone-server -y
+sudo apt install cinnamon-desktop-environment novnc tigervnc-standalone-server dbus-x11 -y
 echo
 echo "step 2 done."
 echo =================================
